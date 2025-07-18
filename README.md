@@ -125,11 +125,22 @@ This allows future predictions without retraining.
 ## 📌 Project Structure
 
 ```
-├── dataset.csv
-├── logistic_model.pkl
-├── requirements.txt
-├── mobile_price_prediction.ipynb  # (or .py)
-└── README.md
+Mobile-Price-Prediction/
+│
+├── 📁 Data/                     # Contains datasets (train/test)
+│   └── dataset.csv   # example data file
+│
+├── 📁 Model/                    # Contains saved models or model-related files
+│   └── mobile_price_model.pkl         
+│
+├── 📁 Notebooks/               
+│   └── mobile_price_prediction.ipynb
+│
+├── 📄Predict Mobile Phone Pricing.pdf
+├── 📄 README.md                
+├── 📄 requirements.txt         
+├── 📄 .gitignore               # To ignore checkpoints, system files etc.
+
 ```
 
 ---
@@ -138,8 +149,8 @@ This allows future predictions without retraining.
 
 1. **Clone the repository**  
    ```
-   git clone https://github.com/shivanshu-1609/Animal-Classification.git
-   cd Animal-Classification
+   git clone https://github.com/shivanshu-1609/Mobile-Phone-Price-Prediction.git
+   cd Mobile-Phone-Price-Prediction
    ```
 
 2. **Install dependencies**  
@@ -153,7 +164,7 @@ This allows future predictions without retraining.
 
 ## ✅ Requirements
 
-- Python ≥ 3.7
+- Python
 - pandas
 - numpy
 - matplotlib
@@ -178,19 +189,17 @@ pip install pandas numpy matplotlib seaborn scikit-learn joblib ipython
 
 ---
 
-## 🙌 Acknowledgments
+## 🙋‍♂️ Author
 
-Dataset taken from Kaggle or open-source ML repositories.
-
----
-
-## 🧑‍💻 Author
-
-**Shivanshu Verma**  
-🔗 [GitHub](https://github.com/shivanshu-1609)
+👨‍💻 **Shivanshu Shukla**  
+BTech | AI & ML Enthusiast  
+GitHub: [@shivanshu-1609](https://github.com/shivanshu-1609)
 
 ---
 
-## 🏷️ License
+## 🌐 Connect
 
-This project is open-source and free to use under the MIT License.
+If you liked the project, leave a ⭐ on the repo!  
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/shivanshu-shukla16/) for feedback, collaborations, or queries.
+
+---
